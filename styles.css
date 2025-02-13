@@ -1,0 +1,29 @@
+body{
+    background-color: #ec511c;
+}
+h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+}
+.header{
+    background-color: #3bc0b1;
+    height: 60px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: green;
+}
+.footer{
+    background-color: #3bc0b1;
+    height: 60px;
+}
