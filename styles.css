@@ -12,16 +12,45 @@ h1{
     gap: 10px;
     min-height: 100vh;
 }
-.header{
-    background-color: #3bc0b1;
+.navbar-Container{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0b413b;
     height: 60px;
 }
-.main{
+.nav{
+    height: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: #b0e1dc;
+    transition: transform 0.5s ease, color 0.3s ease;
+}
+.nav:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+}
+.main-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
     background-color: green;
+    flex-grow: 1;
+    gap: 50px;
+}
+.main{
+    background-color: #ec511c;
+    height: 200px;
+    width: 130px;
+    border-radius: 5%;
+    text-align: center;
+    color: aliceblue;
+    transition: transform 0.5s ease;
+}
+.main:hover{
+    transform: scale(1.2);
 }
 .footer{
     background-color: #3bc0b1;
